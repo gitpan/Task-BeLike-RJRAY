@@ -3,14 +3,14 @@ require 5.008008;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'PL_FILES' => {},
-  'INSTALLDIRS' => 'site',
   'NAME' => 'Task::BeLike::RJRAY',
-  'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/Task/BeLike/RJRAY.pm',
   'PREREQ_PM' => {
-                   'Test::More' => '0.80',
-                   'Module::Build' => '0.28'
-                 }
+                   'Module::Build' => '0.28',
+                   'Test::More' => '0.80'
+                 },
+  'INSTALLDIRS' => 'site',
+  'EXE_FILES' => [],
+  'PL_FILES' => {}
 )
 ;
