@@ -1,7 +1,7 @@
 Task::BeLike::RJRAY - My frequently-used and favorite modules
 =============================================================
 
-Version: 0.002 (See CHANGES below)
+Version: 0.003 (See CHANGES below)
 
 
 WHAT IS IT
@@ -17,4 +17,4 @@ CHANGES
 
   * lib/Task/BeLike/RJRAY.pm
 
-Fixed typo in entry for App::Changelog2x.
+Fixed typo in entry for Archive::Zip
