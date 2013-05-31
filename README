@@ -1,7 +1,7 @@
 Task::BeLike::RJRAY - My frequently-used and favorite modules
 =============================================================
 
-Version: 0.004 (See CHANGES below)
+Version: 0.005 (See CHANGES below)
 
 
 WHAT IS IT
@@ -15,10 +15,7 @@ helpful or inspirational to someone else, I can live with that.
 CHANGES
 -------
 
-  * Build.PL
-
-I clearly did not understand how this worked before now.
-
   * lib/Task/BeLike/RJRAY.pm
 
-Corrected version number.
+Added two more modules to existing sections and created a new section for
+work-related modules that I need.
