@@ -1,7 +1,7 @@
 Task::BeLike::RJRAY - My frequently-used and favorite modules
 =============================================================
 
-Version: 0.006 (See CHANGES below)
+Version: 0.007 (See CHANGES below)
 
 
 WHAT IS IT
@@ -17,4 +17,4 @@ CHANGES
 
   * lib/Task/BeLike/RJRAY.pm
 
-More additions, some re-ordering.
+Removed Image::ExifTool.
