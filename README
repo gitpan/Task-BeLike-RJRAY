@@ -1,7 +1,7 @@
 Task::BeLike::RJRAY - My frequently-used and favorite modules
 =============================================================
 
-Version: 0.007 (See CHANGES below)
+Version: 0.008 (See CHANGES below)
 
 
 WHAT IS IT
@@ -17,4 +17,5 @@ CHANGES
 
   * lib/Task/BeLike/RJRAY.pm
 
-Removed Image::ExifTool.
+Added Throwable, removed duplicate entry for namespace::autoclean, and fixed
+typo in entry for Crypt::OpenPGP.

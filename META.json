@@ -4,7 +4,7 @@
       "Randy J. Ray <rjray@blackperl.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4204",
+   "generated_by" : "Module::Build version 0.421",
    "license" : [
       "perl_5"
    ],
@@ -40,6 +40,7 @@
             "Config::GitLike" : "0",
             "Config::Tiny" : "0",
             "Const::Fast" : "0",
+            "Crypt::OpenPGP" : "0",
             "DBD::SQLite" : "0",
             "DBI" : "0",
             "Daemon::Control" : "0",
@@ -131,6 +132,7 @@
             "Text::Template" : "0",
             "Text::Textile" : "0",
             "Text::Textile::Plaintext" : "0",
+            "Throwable" : "0",
             "Time::HiRes" : "0",
             "Try::Tiny" : "0",
             "URI" : "0",
@@ -156,7 +158,7 @@
    "provides" : {
       "Task::BeLike::RJRAY" : {
          "file" : "lib/Task/BeLike/RJRAY.pm",
-         "version" : "0.007"
+         "version" : "0.008"
       }
    },
    "release_status" : "stable",
@@ -172,5 +174,5 @@
          "url" : "http://github.com/rjray/task-belike-rjray"
       }
    },
-   "version" : "0.007"
+   "version" : "0.008"
 }
