@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   Module::Build: '0.42'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142690'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,7 +15,7 @@ name: Task-BeLike-RJRAY
 provides:
   Task::BeLike::RJRAY:
     file: lib/Task/BeLike/RJRAY.pm
-    version: '0.008'
+    version: '0.009'
 requires:
   App::Ack: '0'
   App::Changelog2x: '0'
@@ -25,7 +25,6 @@ requires:
   Archive::Tar: '0'
   Archive::Tar::Wrapper: '0'
   Archive::Zip: '0'
-  Bundle::CPAN: '0'
   Bundle::LWP: '0'
   CPAN::SQLite: '0'
   CPAN::Uploader: '0'
@@ -76,7 +75,9 @@ requires:
   JSON::XS: '0'
   LWP::Protocol::https: '0'
   List::MoreUtils: '0'
+  MCE: '0'
   Math::Random::MT: '0'
+  Module::CPANTS::Analyse: '0'
   Mojolicious: '0'
   Moo: '0'
   Moose: '0'
@@ -93,6 +94,11 @@ requires:
   Net::Server: '0'
   Net::Twitter: '0'
   Net::Twitter::Lite: '0'
+  PPI: '0'
+  PPI::HTML: '0'
+  PPI::Prettify: '0'
+  PPI::XS: '0'
+  PPIx::Regexp: '0'
   PadWalker: '0'
   Params::Validate: '0'
   Path::Class: '0'
@@ -153,4 +159,4 @@ resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-RJRAY
   license: http://dev.perl.org/licenses/
   repository: http://github.com/rjray/task-belike-rjray
-version: '0.008'
+version: '0.009'
